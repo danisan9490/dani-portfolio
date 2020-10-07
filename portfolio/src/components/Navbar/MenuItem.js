@@ -12,7 +12,7 @@ export const MenuItems = [
     target: false
   },
   {
-    title: 'About Me',
+    title: 'Tech Stack',
     url: '#',
     cName: 'nav-links',
     target: false
