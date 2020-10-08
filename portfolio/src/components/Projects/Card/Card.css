@@ -1,19 +1,24 @@
-.card {
+.card, .backCard {
   height: 250px;
   width: 360px;
-  border-radius: 15px;
-  margin: 30px;
-  padding: 1.5rem;
-  text-align: center;
-  color: rgba( 0, 0, 0, 0.0);
+  border-radius: 5px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  transition: 0.4s ease-out;
   box-shadow: 2px 4px 8px 2px rgba( 0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  transition: 0.4s ease-out;
+}
+
+.card {
+  margin: 30px;
+  background-color: rgba( 0, 0, 0, 0.2);
+}
+
+.backCard {
+  text-align: center;
+  padding: 1.5rem;
+  color: rgba( 0, 0, 0, 0.0);
+  visibility: hidden;
 }
 
 .icons {
@@ -28,15 +33,23 @@
   transition: 0.4s ease-out;
 }
 
-.card:hover .cardLink {
-  transform: translateY(5px);
-  color: rgba( 0, 0, 0, 1);
-}
-
 .card:hover {
   transform: translateY(5px);
+}
+
+.cardLink:hover {
+  transition: 0.1s ease-out;
+  font-size: 63px;
+}
+
+.card:hover .backCard {
+  visibility: visible;
   color: rgba( 0, 0, 0, 1);
-  background: rgba( 250, 250, 250, 0.8);
+  background-color: rgba( 250, 250, 250, 1);
+}
+
+.card:hover .cardLink {
+  color: rgba( 0, 0, 0, 1);
 }
 
 @media only screen and (max-width: 900px) {
@@ -46,10 +59,9 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .card {
+  .card, .backCard {
     height: 195px;
     width: 305px;
-    margin: 15px 5px;
     background-size: cover;
   }
   .title {
@@ -61,7 +73,6 @@
   .cardLink {
     margin-top: 15px;
     font-size: 50px;
-    color: rgba( 0, 0, 0, 0.0);
     transition: 0.4s ease-out;
   }
 }

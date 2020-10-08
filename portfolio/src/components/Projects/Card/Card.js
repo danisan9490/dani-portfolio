@@ -1,28 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Card.css';
 import faceRecognition from '../../DB/img/faceRecognition.png';
+import briteU from '../../DB/img/briteU.png';
+import codeCoin from '../../DB/img/codeCoin.png';
 
 
 
 function Card({ title, url, description, lifeWeb, img, category }) {
 
-  const [isHover, setIsHover] = useState(false);
   let image;
-  console.log(category)
   if (img === 'faceRecognition') image = `url(${faceRecognition})`;
-
-  console.log(lifeWeb)
-
-  const hoverTrue = () => setIsHover(true);
-  const hoverFalse = () => setIsHover(false);
+  if (img === 'briteU') image = `url(${briteU})`;
+  if (img === 'codeCoin') image = `url(${codeCoin})`;
 
   return (
-    <div className="card"
-      style={isHover ? { backgroundImage: 'none' } : { backgroundImage: image }}
-      onMouseOut={hoverFalse}
-      onMouseOver={hoverTrue}
+    <div
+      className="card"
+      style={{ backgroundImage: image }}
     >
-      <div className="container">
+      <div className="backCard">
         <div className="text">
           <h1 className="title">{title}</h1>
           <br />
@@ -34,8 +30,6 @@ function Card({ title, url, description, lifeWeb, img, category }) {
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            onMouseOut={hoverFalse}
-            onMouseOver={hoverTrue}
           >
             <i className="fab fa-github" ></i>
           </a>
@@ -45,8 +39,6 @@ function Card({ title, url, description, lifeWeb, img, category }) {
             href={lifeWeb}
             target="_blank"
             rel="noopener noreferrer"
-            onMouseOut={hoverFalse}
-            onMouseOver={hoverTrue}
           >
             <i className="fa fa-link"></i>
           </a>) : (
@@ -54,7 +46,8 @@ function Card({ title, url, description, lifeWeb, img, category }) {
             )}
         </div>
       </div>
-    </ div >
+
+    </div>
   );
 }
 
