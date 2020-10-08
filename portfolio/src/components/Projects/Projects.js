@@ -7,7 +7,6 @@ function Projects({ projects }) {
   return (
     <div className="projects">
       {projects.length > 0 ? projects[0].map((project, i) => {
-        console.log(project)
         return <Card
           key={i}
           title={project.title}
