@@ -6,8 +6,10 @@
   padding: 1.5rem;
   text-align: center;
   color: rgba( 0, 0, 0, 0.0);
+  background-repeat: no-repeat;
   background-size: cover;
-  transition: 0.6s ease-out;
+  background-position: 50% 50%;
+  transition: 0.4s ease-out;
   box-shadow: 2px 4px 8px 2px rgba( 0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
@@ -20,7 +22,7 @@
 }
 
 .cardLink {
-  margin-top: 40px;
+  margin-top: 25px;
   font-size: 60px;
   color: rgba( 0, 0, 0, 0.0);
   transition: 0.4s ease-out;
@@ -37,8 +39,29 @@
   background: rgba( 250, 250, 250, 0.8);
 }
 
+@media only screen and (max-width: 900px) {
+  .card {
+    margin: 15px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .card {
+    height: 195px;
+    width: 305px;
     margin: 15px 5px;
+    background-size: cover;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .description {
+    font-size: 15px;
+  }
+  .cardLink {
+    margin-top: 15px;
+    font-size: 50px;
+    color: rgba( 0, 0, 0, 0.0);
+    transition: 0.4s ease-out;
   }
 }

@@ -13,6 +13,8 @@ function Projects({ projects }) {
           url={project.url}
           description={project.description}
           lifeWeb={project.lifeWeb}
+          img={project.img}
+          category={project.category}
         />
       }) :
         null
