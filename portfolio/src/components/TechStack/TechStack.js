@@ -35,16 +35,9 @@ function TeckStack() {
 
           <div className="frontEndContainer">
             <div className="rraContainer">
-              <a href="">
-                <img className="frontEnd" src={reactImg} alt="React" />
-              </a>
-              <a href="">
-                <img className="frontEnd" src={redux} alt="Redux" />
-              </a>
-              <a href="">
-                <img className="frontEnd" src={angular} alt="Angular" />
-
-              </a>
+              <img className="frontEnd" src={reactImg} alt="React" />
+              <img className="frontEnd" src={redux} alt="Redux" />
+              <img className="frontEnd" src={angular} alt="Angular" />
             </div>
             <div className="hcsContainer">
               <img className="frontEnd" src={html} alt="Html" />

@@ -1,12 +1,12 @@
 .techStak {
-  margin: 0;
+  margin-top: 15px;
   height: 100%;
-  width: 101%;
+  width: 100%;
   background: white;
 }
 
 .techTitle {
-  padding: 40px;
+  padding: 30px;
   font-size: 40px;
   font-weight: 1000;
   text-align: center;
