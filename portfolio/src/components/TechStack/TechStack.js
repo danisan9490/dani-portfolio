@@ -9,15 +9,19 @@ import angular from './techImg/angular.png';
 import mongoDB from './techImg/mongoDB.png';
 import mySQL from './techImg/mySQL.png';
 import postgreSQL from './techImg/postgreSQL.png';
+import redux from './techImg/redux.png';
+import postman from './techImg/postman.png';
+import bootstrap from './techImg/bootstrap.png';
+import html from './techImg/html.png';
+import css from './techImg/css.png';
 
 function TeckStack() {
 
 
   return (
     <div className="techStak">
-      <div className="teckTitle">
+      <div className="techTitle">
         <h1>Tech Stack</h1>
-
       </div>
 
       <div className="techContainer">
@@ -27,16 +31,42 @@ function TeckStack() {
           <img className="imgTop" src={python} alt="Python" />
 
         </div>
-        <div className="javaScript">
-          <img className="imgButtom" src={reactImg} alt="React" />
-          <img className="imgButtom" src={angular} alt="Angular" />
-          <img className="imgButtom" src={nodeImg} alt="NodeJs" />
+        <div className="buttomTech">
+
+          <div className="frontEndContainer">
+            <div className="rraContainer">
+              <a href="">
+                <img className="frontEnd" src={reactImg} alt="React" />
+              </a>
+              <a href="">
+                <img className="frontEnd" src={redux} alt="Redux" />
+              </a>
+              <a href="">
+                <img className="frontEnd" src={angular} alt="Angular" />
+
+              </a>
+            </div>
+            <div className="hcsContainer">
+              <img className="frontEnd" src={html} alt="Html" />
+              <img className="frontEnd css" src={css} alt="Css" />
+              <img className="frontEnd bootstrap" src={bootstrap} alt="Bootstrap" />
+            </div>
+          </div>
+
+          <div className="backEndContainer">
+            <div className="npContainer">
+              <img className="backEnd" src={nodeImg} alt="NodeJs" />
+              <img className="backEnd" src={postman} alt="Postman" />
+            </div>
+            <div className="mmpContainer">
+              <img className="backEnd" src={mongoDB} alt="mongoDB" />
+              <img className="backEnd" src={mySQL} alt="mySQL" />
+              <img className="backEnd" src={postgreSQL} alt="postgreSQL" />
+            </div>
+          </div>
+
         </div>
-        <div className="backEnd">
-          <img className="imgButtom mDB" src={mongoDB} alt="MongoDB" />
-          <img className="imgButtom mySQl" src={mySQL} alt="mySQL" />
-          <img className="imgButtom" src={postgreSQL} alt="postgreSQL" />
-        </div>
+
       </div>
 
 
