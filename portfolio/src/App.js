@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Navbar from './components/Navbar/Navbar';
 import { projectsDb } from './components/DB/projectsDb';
+import TechStack from './components/TechStack/TechStack';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Projects
         projects={projects}
       />
+      <TechStack />
 
 
 

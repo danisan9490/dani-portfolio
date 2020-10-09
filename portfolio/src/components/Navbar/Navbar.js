@@ -12,7 +12,7 @@ function Navigation() {
 
   return (
     <nav className="navbarItems">
-      <h1 className="navbar-logo">Dani<i className="fab fa-react"></i>Portfolio</h1>
+      {/* <h1 className="navbar-logo">Dani<i className="fab fa-react"></i>Portfolio</h1> */}
       <div className="menu-icon" onClick={handleClick}>
         <i className={navbar ? "fas fa-times" : "fas fa-bars"}></i>
       </div>

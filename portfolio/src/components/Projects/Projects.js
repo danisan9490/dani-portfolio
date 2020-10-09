@@ -1,12 +1,13 @@
 import React from 'react';
 import Card from './Card/Card';
+import Decoration from './Decoration/Decoration';
 import './Projects.css';
 // import Particles from 'react-particles-js';
 
 // const particulesOptions = {
 //   particles: {
 //     number: {
-//       value: 50,
+//       value: 30,
 //       density: {
 //         enable: true,
 //         value_area: 800
@@ -19,17 +20,14 @@ function Projects({ projects }) {
   return (
 
     <div className="container">
-      <div className="decoration">
-        {/* <i class="fa fa-volume-up"></i> */}
-        {/* <i class="fa fa-home"></i> */}
-        <i class="fas fa-briefcase"></i>
-        <i class="fas fa-laptop-code"></i>
-        <i class="fa fa-desktop"></i>
-        <i class="fas fa-mouse"></i>
-        <i class="fa fa-coffee"></i>
-        <i class="far fa-calendar-alt"></i>
 
-      </div>
+      {/* <Particles
+        className="particles"
+        params={particulesOptions}
+      /> */}
+
+      <Decoration />
+
       <div className="categories">
         <button className="button" >Full Stack</button>
         <button className="button" >Html/Css/JS</button>
@@ -50,10 +48,7 @@ function Projects({ projects }) {
         }) :
           null
         }
-        {/* <Particles
-        className="particles"
-        params={particulesOptions}
-      /> */}
+
       </div>
     </div>
   );
