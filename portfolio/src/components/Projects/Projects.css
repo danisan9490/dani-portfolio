@@ -1,9 +1,6 @@
 .container {
-  /* background-color: rgb(243, 98, 98); */
-  position: block;
   width: 100%;
   height: 100%;
-  padding: 30px;
 }
 
 .categories {
@@ -11,7 +8,8 @@
 }
 
 .button {
-  margin: 0 15px 0 15px;
+  margin: -30px 15px 0 15px;
+  transform: translateY(-115px);
   cursor: pointer;
 }
 
@@ -20,6 +18,7 @@
   justify-content: center;
   flex-wrap: wrap;
   align-content: flex-start;
+  transform: translateY(-115px);
 }
 
 .particles {
@@ -29,4 +28,45 @@
   bottom: 0;
   left: 0;
   /* z-index: 1; */
+}
+
+/* ------------------------- */
+
+.decoration {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  color: rgba(73, 63, 252, 1);
+}
+
+.fa-briefcase {
+  font-size: 80px;
+  transform: translate( -35px, -151px);
+}
+
+.fa-laptop-code {
+  font-size: 100px;
+  transform: translate(-17px, -156px);
+}
+
+.fa-desktop {
+  font-size: 160px;
+  transform: translate(-17px, -158px);
+}
+
+.fa-mouse {
+  font-size: 40px;
+  transform: translate( -15px, -158px);
+}
+
+.fa-coffee {
+  font-size: 50px;
+  transform: translate( 10px, -156px);
+}
+
+.fa-calendar-alt {
+  font-size: 70px;
+  transform: translate( 15px, -230px);
 }

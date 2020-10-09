@@ -17,7 +17,19 @@ import './Projects.css';
 
 function Projects({ projects }) {
   return (
+
     <div className="container">
+      <div className="decoration">
+        {/* <i class="fa fa-volume-up"></i> */}
+        {/* <i class="fa fa-home"></i> */}
+        <i class="fas fa-briefcase"></i>
+        <i class="fas fa-laptop-code"></i>
+        <i class="fa fa-desktop"></i>
+        <i class="fas fa-mouse"></i>
+        <i class="fa fa-coffee"></i>
+        <i class="far fa-calendar-alt"></i>
+
+      </div>
       <div className="categories">
         <button className="button" >Full Stack</button>
         <button className="button" >Html/Css/JS</button>
