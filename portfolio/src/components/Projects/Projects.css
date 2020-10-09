@@ -70,3 +70,36 @@
   font-size: 70px;
   transform: translate( 15px, -230px);
 }
+
+@media only screen and (max-width: 780px) {
+  .fa-briefcase {
+    font-size: 70px;
+    transform: translate( -35px, -141px);
+  }
+  .fa-laptop-code {
+    font-size: 90px;
+    transform: translate(-17px, -146px);
+  }
+  .fa-desktop {
+    font-size: 150px;
+    transform: translate(-17px, -148px);
+  }
+  .fa-mouse {
+    font-size: 30px;
+    transform: translate( -15px, -148px);
+  }
+  .fa-coffee {
+    font-size: 40px;
+    transform: translate( 10px, -146px);
+  }
+  .fa-calendar-alt {
+    font-size: 60px;
+    transform: translate( 15px, -220px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .fa-briefcase, .fa-laptop-code {
+    display: none;
+  }
+}
