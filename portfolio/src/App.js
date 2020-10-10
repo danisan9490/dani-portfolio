@@ -5,6 +5,7 @@ import Projects from './components/Projects/Projects';
 import Navbar from './components/Navbar/Navbar';
 import { projectsDb } from './components/DB/projectsDb';
 import TechStack from './components/TechStack/TechStack';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         projects={projects}
       />
       <TechStack />
+      <Contact />
 
 
 
