@@ -21,7 +21,8 @@ function Contact() {
         <div className="topDetails">
           <div className="containerItem emailContainer">
             <div className="boxEmail" >
-              <i className=" far fa-envelope" onClick={setCopied}></i>
+
+              <i className=" far fa-envelope" title="Copy Email" onClick={setCopied} ></i>
               {isCopied ? (<div>
                 <i className="far fa-check-circle"></i>
                 <p className="copied" >Copied to clipboard</p>
@@ -34,7 +35,7 @@ function Contact() {
                 )}
 
             </div>
-            <p className="pCopy" onClick={setCopied}>
+            <p className="pCopy" title="Copy Email" onClick={setCopied}>
               danisan9490@gmail.com
               </p>
 
@@ -44,6 +45,7 @@ function Contact() {
             <a href="https://www.linkedin.com/in/daniel-san-eusebio-570871167/"
               target="_blank"
               rel="noopener noreferrer"
+              title="LinkedIn"
             >
               <i className="fab fa-linkedin-in"></i>
               <p className="pCopy">LinkedIn</p>
@@ -58,6 +60,7 @@ function Contact() {
             <a href="https://github.com/danisan9490"
               target="_blank"
               rel="noopener noreferrer"
+              title="Github"
             >
               <i className=" fab fa-github"></i>
               <p className="pCopy" >GitHub</p>

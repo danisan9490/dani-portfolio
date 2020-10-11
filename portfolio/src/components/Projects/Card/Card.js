@@ -26,17 +26,19 @@ function Card({ title, url, description, lifeWeb, img, category }) {
         </div>
         <div className="icons">
           <a
-            className="cardLink "
+            className="cardLink"
             href={url}
+            title="Github Code"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-github" ></i>
+            <i class="fas fa-code"></i>
           </a>
 
           {lifeWeb !== "" ? (<a
             className="cardLink"
             href={lifeWeb}
+            title="Live Web"
             target="_blank"
             rel="noopener noreferrer"
           >

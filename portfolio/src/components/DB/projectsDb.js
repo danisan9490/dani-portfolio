@@ -3,7 +3,7 @@ export const projectsDb = [
     title: 'Face Recognition',
     url: 'https://github.com/danisan9490/face-recognition-js',
     description: 'The App able to find a face position on a digital image.',
-    lifeWeb: '',
+    lifeWeb: 'aaa',
     img: 'faceRecognition',
     category: "fullStack"
   },

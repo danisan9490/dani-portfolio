@@ -1,0 +1,9 @@
+img {
+  height: 73px;
+  width: 80px;
+  transform: translate(0px, -10px);
+}
+
+.Tilt-inner {
+  padding: 1rem;
+}

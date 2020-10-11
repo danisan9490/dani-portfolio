@@ -7,7 +7,7 @@ import logoImg from './logoImg.png';
 function Logo() {
   return (
     <div className="logo">
-      <Tilt className="Tilt" options={{ max: 45 }} style={{ height: 150, width: 150 }} >
+      <Tilt className="Tilt" options={{ max: 50 }} style={{ height: 90, width: 141 }} >
         <div className="Tilt-inner">
           <img src={logoImg} alt="Logo" />
         </div>

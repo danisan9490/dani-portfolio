@@ -27,6 +27,7 @@
 }
 
 .cardLink {
+  visibility: hidden;
   margin-top: 25px;
   font-size: 60px;
   color: rgba( 0, 0, 0, 0.0);
@@ -39,7 +40,7 @@
 
 .cardLink:hover {
   transition: 0.1s ease-out;
-  font-size: 63px;
+  font-size: 65px;
 }
 
 .card:hover .backCard {
@@ -49,6 +50,7 @@
 }
 
 .card:hover .cardLink {
+  visibility: visible;
   color: rgba( 0, 0, 0, 1);
 }
 
