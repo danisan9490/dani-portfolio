@@ -19,9 +19,9 @@ function TeckStack() {
 
 
   return (
-    <div className="techStak">
+    <div className="techStak" id="skills">
       <div className="techTitle">
-        <h1>Tech Stack</h1>
+        <h1>Skills</h1>
       </div>
 
       <div className="techContainer">

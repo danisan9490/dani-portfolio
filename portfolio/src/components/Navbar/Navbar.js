@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { MenuItems } from './MenuItem'
+import { MenuItems } from './MenuItem';
+import { Link } from 'react-scroll';
 import './Navbar.css';
 
 function Navigation() {
@@ -12,23 +13,26 @@ function Navigation() {
 
   return (
     <nav className="navbarItems">
-      {/* <h1 className="navbar-logo">Dani<i className="fab fa-react"></i>Portfolio</h1> */}
       <div className="menu-icon" onClick={handleClick}>
         <i className={navbar ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
+
       <ul className={navbar ? 'nav-menu active' : 'nav-menu'}>
         {
           MenuItems.map((item, index) => {
             return (
               <li key={index}>
-                <a
+                <Link
+                  onClick={handleClick}
                   className={item.cName}
-                  href={item.url}
+                  to={item.url}
+                  smooth={true}
+                  duration={1000}
                   target={item.target ? "_blank" : null}
                   rel="noopener noreferrer"
                 >
                   {item.title}
-                </a>
+                </Link>
               </li>
             )
           })

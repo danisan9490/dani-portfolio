@@ -1,32 +1,37 @@
 export const MenuItems = [
   {
+    title: 'Menu',
+    // url: '#',
+    cName: 'nav-links menu',
+    target: false
+  }, {
     title: 'Home',
-    url: '#',
+    url: 'home',
     cName: 'nav-links',
     target: false
   },
   {
     title: 'Projects',
-    url: '#',
+    url: 'projects',
     cName: 'nav-links',
     target: false
   },
   {
-    title: 'Tech Stack',
-    url: '#',
+    title: 'Skills',
+    url: 'skills',
     cName: 'nav-links',
     target: false
+  },
+  {
+    title: 'About Me',
+    url: 'aboutMe',
+    cName: 'nav-links',
+    target: true
   },
   {
     title: 'Contact',
-    url: '#',
+    url: 'contact',
     cName: 'nav-links',
     target: false
-  },
-  {
-    title: 'GitHub',
-    url: 'https://github.com/danisan9490',
-    cName: 'nav-links',
-    target: true
   }
 ]

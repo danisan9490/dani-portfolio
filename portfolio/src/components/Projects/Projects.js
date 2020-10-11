@@ -19,7 +19,7 @@ import './Projects.css';
 function Projects({ projects }) {
   return (
 
-    <div className="container">
+    <div className="container" id="projects">
 
       {/* <Particles
         className="particles"
