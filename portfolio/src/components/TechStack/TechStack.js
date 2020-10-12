@@ -27,34 +27,70 @@ function TeckStack() {
       <div className="techContainer">
         <div className="topTech">
           <img className="imgTop js" src={javaScript} alt="JavaScript" />
-          <img className="imgTop" src={gitHub} alt="GitHub" />
-          <img className="imgTop" src={python} alt="Python" />
+          <img className="imgTop " src={gitHub} alt="GitHub" />
+          <img className="imgTop " src={python} alt="Python" />
 
         </div>
         <div className="buttomTech">
 
           <div className="frontEndContainer">
             <div className="rraContainer">
-              <img className="frontEnd" src={reactImg} alt="React" />
-              <img className="frontEnd" src={redux} alt="Redux" />
-              <img className="frontEnd" src={angular} alt="Angular" />
+              <div className="itemImg">
+                <img className="frontEnd react" src={reactImg} alt="React" />
+              </div>
+              <div className="itemImg">
+                <img className="frontEnd redux" src={redux} alt="Redux" />
+
+              </div>
+              <div className="itemImg">
+                <img className="frontEnd angular" src={angular} alt="Angular" />
+
+              </div>
+
             </div>
             <div className="hcsContainer">
-              <img className="frontEnd" src={html} alt="Html" />
-              <img className="frontEnd css" src={css} alt="Css" />
-              <img className="frontEnd bootstrap" src={bootstrap} alt="Bootstrap" />
+              <div className="itemImg">
+                <img className="frontEnd html" src={html} alt="Html" />
+
+              </div>
+              <div className="itemImg">
+                <img className="frontEnd css" src={css} alt="Css" />
+
+              </div>
+              <div className="itemImg">
+                <img className="frontEnd bootstrap" src={bootstrap} alt="Bootstrap" />
+
+              </div>
+
             </div>
           </div>
 
           <div className="backEndContainer">
             <div className="npContainer">
-              <img className="backEnd" src={nodeImg} alt="NodeJs" />
-              <img className="backEnd" src={postman} alt="Postman" />
+              <div className="itemImg">
+                <img className="backEnd nodeJs" src={nodeImg} alt="NodeJs" />
+
+              </div>
+              <div className="itemImg">
+                <img className="backEnd postman" src={postman} alt="Postman" />
+
+              </div>
+
             </div>
             <div className="mmpContainer">
-              <img className="backEnd" src={mongoDB} alt="mongoDB" />
-              <img className="backEnd" src={mySQL} alt="mySQL" />
-              <img className="backEnd" src={postgreSQL} alt="postgreSQL" />
+              <div className="itemImg">
+                <img className="backEnd postgreSQL" src={postgreSQL} alt="postgreSQL" />
+
+              </div>
+              <div className="itemImg">
+                <img className="backEnd mySQL" src={mySQL} alt="mySQL" />
+
+              </div>
+
+              <div className="itemImg">
+                <img className="backEnd mongoDB" src={mongoDB} alt="mongoDB" />
+
+              </div>
             </div>
           </div>
 

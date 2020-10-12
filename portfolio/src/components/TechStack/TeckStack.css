@@ -25,52 +25,96 @@
 }
 
 .frontEndContainer, .backEndContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
   width: 500px;
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 2px 4px 8px 2px rgba( 0, 0, 0, 0.2);
-  margin: 25px;
-}
-
-.imgTop, .frontEnd, .backEnd {
-  height: 100px;
-  border-radius: 10px;
-  margin: 15px;
+  margin: 30px;
 }
 
 .rraContainer, .hcsContainer, .npContainer, .mmpContainer {
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  /* margin: 10px; */
 }
 
-.css {
-  transform: translateX(20px);
+.itemImg {
+  width: 140px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  /* background-color: cornflowerblue; */
+}
+
+/* Items Img Resolution */
+
+.react, .redux, .angular {
+  height: 80px;
+  width: 80px;
+}
+
+.html, .css {
+  height: 85px;
+  width: 60px;
 }
 
 .bootstrap {
-  transform: translateX(15px);
+  height: 85px;
+  width: 80px;
+}
+
+.nodeJs {
+  height: 80px;
+  width: 135px;
+}
+
+.postman {
+  height: 80px;
+  width: 90px;
+}
+
+.mongoDB {
+  height: 80px;
+  width: 115px;
+}
+
+.mySQL {
+  height: 80px;
+  width: 125px;
+}
+
+.postgreSQL {
+  height: 80px;
+  width: 85px;
 }
 
 @media only screen and (max-width: 1150px) {
   .frontEndContainer, .backEndContainer {
-    height: 250px;
-    width: 450px;
-  }
-  .imgTop, .frontEnd, .backEnd {
-    height: 90px;
-    margin: 10px;
+    /* height: 250px; */
+    width: 460px;
+    margin: 25px;
   }
 }
 
 @media only screen and (max-width: 1000px) {
+  .frontEndContainer, .backEndContainer {
+    width: 500px;
+    margin: 30px;
+  }
   .buttomTech {
     flex-direction: column;
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .techTitle {
     font-size: 25px;
   }
@@ -78,9 +122,47 @@
     height: 200px;
     width: 400px;
   }
-  .imgTop, .frontEnd, .backEnd {
-    height: 70px;
-    margin: 5px;
+  .imgTop {
+    margin: 10px;
+    height: 65px;
+    width: 65px;
+  }
+  .itemImg {
+    margin: 10px 0 0 0;
+    width: 100px;
+    height: 85px;
+  }
+  .react, .redux, .angular {
+    height: 60px;
+    width: 60px;
+  }
+  .html, .css {
+    height: 65px;
+    width: 45px;
+  }
+  .bootstrap {
+    height: 65px;
+    width: 65px;
+  }
+  .nodeJs {
+    height: 60px;
+    width: 100px;
+  }
+  .postman {
+    height: 60px;
+    width: 65px;
+  }
+  .mongoDB {
+    height: 60px;
+    width: 80px;
+  }
+  .mySQL {
+    height: 60px;
+    width: 90px;
+  }
+  .postgreSQL {
+    height: 60px;
+    width: 60px;
   }
 }
 
@@ -89,7 +171,10 @@
     height: 175px;
     width: 325px;
   }
-  .imgTop, .frontEnd, .backEnd {
-    height: 60px;
+  .itemImg {
+    margin: 0;
+    padding-top: 10px;
+    width: 100px;
+    height: 85px;
   }
 }
