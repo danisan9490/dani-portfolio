@@ -24,6 +24,10 @@
   flex-direction: row;
 }
 
+.imgTop {
+  margin: 25px;
+}
+
 .frontEndContainer, .backEndContainer {
   display: flex;
   flex-direction: column;
@@ -98,7 +102,6 @@
 
 @media only screen and (max-width: 1150px) {
   .frontEndContainer, .backEndContainer {
-    /* height: 250px; */
     width: 460px;
     margin: 25px;
   }
@@ -121,6 +124,7 @@
   .frontEndContainer, .backEndContainer {
     height: 200px;
     width: 400px;
+    margin: 20px 0 20px 0;
   }
   .imgTop {
     margin: 10px;

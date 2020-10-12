@@ -46,3 +46,21 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .fa-calendar-alt {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .fa-mouse {
+    font-size: 40px;
+    transform: translate( -70px, -158px);
+  }
+  .fa-coffee {
+    display: none;
+    font-size: 50px;
+    transform: translate( -150px, -156px);
+  }
+}
