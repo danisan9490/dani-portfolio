@@ -27,12 +27,17 @@ function Projects({ projects }) {
       /> */}
 
       <Decoration />
+      <div className="headerProjects">
+        <h1>My Recent Work</h1>
+        <br />
+        <h5>Here are a few projects I've worked on recently.</h5>
+      </div>
 
-      <div className="categories">
+      {/* <div className="categories">
         <button className="button" >Full Stack</button>
         <button className="button" >Html/Css/JS</button>
         <button className="button" >Python</button>
-      </div>
+      </div> */}
 
       <div className="projects">
         {projects.length > 0 ? projects[0].map((project, i) => {

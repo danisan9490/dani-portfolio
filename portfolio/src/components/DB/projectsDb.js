@@ -62,8 +62,7 @@ export const projectsDb = [
     lifeWeb: '',
     img: '',
     category: "fullStack"
-  },
-  {
+  }, {
     title: 'GitHub',
     url: 'https://github.com/danisan9490',
     description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
@@ -74,33 +73,10 @@ export const projectsDb = [
   {
     title: 'Contact',
     url: '#',
-    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
-    lifeWeb: '',
-    img: '',
-    category: "fullStack"
-  },
-  {
-    title: 'GitHub',
-    url: 'https://github.com/danisan9490',
-    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
-    lifeWeb: '',
-    img: '',
-    category: "fullStack"
-  },
-  {
-    title: 'Contact',
-    url: '#',
-    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
-    lifeWeb: '',
-    img: '',
-    category: "fullStack"
-  },
-  {
-    title: 'GitHub',
-    url: 'https://github.com/danisan9490',
     description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
     lifeWeb: '',
     img: '',
     category: "fullStack"
   }
+
 ]

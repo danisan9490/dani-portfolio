@@ -2,6 +2,7 @@
   margin-top: 15px;
   height: 100%;
   width: 100%;
+  border-top: solid 1px rgb(235, 235, 235);
   background: white;
 }
 
@@ -45,7 +46,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* margin: 10px; */
 }
 
 .itemImg {
@@ -55,7 +55,6 @@
   align-items: center;
   justify-content: center;
   margin: 10px;
-  /* background-color: cornflowerblue; */
 }
 
 /* Items Img Resolution */
