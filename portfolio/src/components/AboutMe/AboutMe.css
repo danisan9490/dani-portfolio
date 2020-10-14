@@ -1,0 +1,28 @@
+.containerAboutMe {
+  height: 600px;
+  width: 100%;
+  padding: 30px;
+  border-top: solid 1px rgb(235, 235, 235);
+  /* background-color: lawngreen; */
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 30px auto 30px auto;
+  padding: 50px 0 50px 0;
+  background-color: hotpink;
+  height: 400px;
+  font-size: 30px;
+}
+
+.headerAboutMe {
+  margin: 25px;
+}
+
+.contentAboutMe {
+  margin: 25px;
+}
