@@ -1,11 +1,12 @@
 /* h1 styled in App.css */
 
 .containerAboutMe {
-  height: 600px;
+  height: 100%;
   width: 100%;
-  padding: 30px;
+  padding: 40px 0 50px 0;
   border-top: solid 1px rgb(235, 235, 235);
-  /* background-color: lawngreen; */
+  transform: translateY(-10px);
+  /* background-color: salmon; */
 }
 
 .aboutMe {
@@ -14,15 +15,98 @@
   justify-content: space-around;
   text-align: center;
   width: 90%;
-  margin: 30px auto 30px auto;
+  margin: 20px auto 20px auto;
   padding: 50px 0 50px 0;
-  height: 400px;
 }
 
 .headerAboutMe {
-  margin: 25px;
+  text-align: center;
 }
 
 .contentAboutMe {
-  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 60px 0 50px 0;
+  text-align: left;
+}
+
+.cardAboutMe {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+}
+
+.mainCard {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.iconAboutMe {
+  font-size: 60px;
+}
+
+.cardAboutMe:hover .mainCard {
+  transform: rotateY(180deg);
+}
+
+.mainCard figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.frontCardAboutMe, .backCardAboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px 2px rgba( 0, 0, 0, 0.2);
+  background-color: rgb(241, 241, 241);
+}
+
+.pAboutMe {
+  font-size: 20px;
+}
+
+.backCardAboutMe {
+  transform: rotateY(180deg);
+}
+
+@media only screen and (max-width: 1300px) {
+  .cardAboutMe {
+    margin: 40px 0 40px 0;
+  }
+  .cardAboutMe {
+    width: 225px;
+    height: 325px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .cardAboutMe {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .cardAboutMe {
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .cardAboutMe {
+    width: 250px;
+    height: 350px;
+    margin: 25px;
+  }
 }

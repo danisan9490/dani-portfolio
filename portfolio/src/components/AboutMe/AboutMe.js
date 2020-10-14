@@ -6,19 +6,71 @@ function AboutMe() {
 
 
   return (
-    <div className="containerAboutMe">
+    <div className="containerAboutMe" id="aboutMe">
       <div className="aboutMe">
         <div className="headerAboutMe">
           <h1>
             About Me
           </h1>
-
         </div>
         <div className="contentAboutMe">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel iusto minima, alias aperiam laboriosam vero harum necessitatibus iste explicabo maxime repudiandae eveniet itaque incidunt sint consequuntur ipsum doloribus maiores voluptatum?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, facere, nihil excepturi corporis, modi eos et rerum fuga odit sunt exercitationem. Suscipit veniam nostrum eveniet esse at libero alias cumque.
-        </p>
+          <div className="cardAboutMe">
+            <div className="mainCard">
+              <figure className="frontCardAboutMe">
+                <h1><i className="iconAboutMe fas fa-bicycle"></i></h1>
+              </figure>
+              <figure className="backCardAboutMe">
+                <p className="pAboutMe" >
+                  I do sports 3 or 4 times a week. <br /> The rest of the days I like to have a nice walk.
+              </p>
+              </figure>
+            </div>
+          </div>
+
+          <div className="cardAboutMe">
+            <div className="mainCard">
+              <figure className="frontCardAboutMe">
+                <h1>
+                  <i className="iconAboutMe far fa-clock"></i>
+                </h1>
+              </figure>
+              <figure className="backCardAboutMe">
+                <p className="pAboutMe" >
+                  I wake up every day at 5:00 a.m to take breakfast, meditate, read and start the day.
+              </p>
+              </figure>
+            </div>
+          </div>
+
+          <div className="cardAboutMe">
+            <div className="mainCard">
+              <figure className="frontCardAboutMe">
+                <h1>
+                  <i className="iconAboutMe far fa-file-code"></i>
+                </h1>
+              </figure>
+              <figure className="backCardAboutMe">
+                <p className="pAboutMe" >
+                  I have been coding just for fan since 2018. <br /> During this time I've done around 50 projects.
+              </p>
+              </figure>
+            </div>
+          </div>
+
+          <div className="cardAboutMe">
+            <div className="mainCard">
+              <figure className="frontCardAboutMe">
+                <h1>
+                  <i className="iconAboutMe fas fa-chart-line"></i>
+                </h1>
+              </figure>
+              <figure className="backCardAboutMe">
+                <p className="pAboutMe" >
+                  In my free time I do trading. <br /> That's how I developed the interest for the cryptocurrencies and created CodeCoin.
+                </p>
+              </figure>
+            </div>
+          </div>
         </div>
       </div>
 

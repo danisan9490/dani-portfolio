@@ -26,11 +26,14 @@ function Projects({ projects }) {
         params={particulesOptions}
       /> */}
 
-      <Decoration />
-      <div className="headerProjects">
-        <h1>My Recent Work</h1>
-        <br />
-        <h2>Here are a few projects I've worked on recently.</h2>
+
+      <div className="blueContainer">
+        <Decoration />
+        <div className="headerProjects">
+          <h1>My Recent Work</h1>
+          <br />
+          <h2>Here are a few projects I've worked on recently.</h2>
+        </div>
       </div>
 
       <div className="projects">

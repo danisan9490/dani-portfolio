@@ -1,15 +1,15 @@
 /* h1 styled in App.css */
 
 .techStak {
-  margin-top: 15px;
   height: 100%;
   width: 100%;
+  padding-top: 40px;
   border-top: solid 1px rgb(235, 235, 235);
-  background: white;
+  transform: translateY(-120px);
 }
 
 .techTitle {
-  padding: 30px;
+  margin: 50px 0 50px 0;
   text-align: center;
 }
 
@@ -20,7 +20,12 @@
   flex-wrap: wrap;
 }
 
+.topTech {
+  margin: 20px 0 10px 0;
+}
+
 .buttomTech {
+  margin: 10px 0 20px 0;
   display: flex;
   flex-direction: row;
 }
@@ -40,6 +45,7 @@
   border-radius: 5px;
   box-shadow: 2px 4px 8px 2px rgba( 0, 0, 0, 0.2);
   margin: 30px;
+  background-color: white;
 }
 
 .rraContainer, .hcsContainer, .npContainer, .mmpContainer {

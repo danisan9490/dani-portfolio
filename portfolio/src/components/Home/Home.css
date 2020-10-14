@@ -20,8 +20,7 @@
 }
 
 .content {
-  align-items: right;
-  width: 870px;
+  width: 570px;
 }
 
 .imgTypingContainer {
@@ -41,4 +40,17 @@
   transform: rotate(10px, right);
   height: 200px;
   width: 220px;
+}
+
+@media only screen and (max-width:900px) {
+  .content {
+    width: 470px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .content {
+    text-align: center;
+    width: 330px;
+  }
 }
