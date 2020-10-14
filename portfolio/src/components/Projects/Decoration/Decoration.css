@@ -9,36 +9,36 @@
 
 .fa-briefcase {
   font-size: 80px;
-  transform: translate( 30px, -151px);
+  transform: translate( 20px, -151px);
 }
 
 .fa-laptop-code {
   font-size: 100px;
-  transform: translate(50px, -156px);
+  transform: translate(35px, -156px);
 }
 
 .fa-desktop {
   font-size: 160px;
-  transform: translate(55px, -158px);
+  transform: translate(45px, -158px);
 }
 
 .logo {
-  transform: translate( -102px, -206px);
+  transform: translate( -113px, -206px);
 }
 
 .fa-mouse {
   font-size: 40px;
-  transform: translate( -75px, -158px);
+  transform: translate( -90px, -158px);
 }
 
 .fa-coffee {
   font-size: 50px;
-  transform: translate( -60px, -156px);
+  transform: translate( -75px, -156px);
 }
 
 .fa-calendar-alt {
   font-size: 70px;
-  transform: translate( -60px, -230px);
+  transform: translate( -75px, -230px);
 }
 
 @media only screen and (max-width: 700px) {

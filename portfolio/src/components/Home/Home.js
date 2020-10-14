@@ -11,6 +11,15 @@ function Home() {
   return (
     <div className="Home" id="home">
       <div className="home-items">
+        <div className="phoneLaptop">
+          <div className="phone">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <div className="laptop">
+            <i class="fas fa-laptop"></i>
+          </div>
+
+        </div>
         <div className="topHome">
           <div className="header">
             <h1>Hello! I'm Daniel,</h1>

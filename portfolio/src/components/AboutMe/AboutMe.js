@@ -21,7 +21,7 @@ function AboutMe() {
               </figure>
               <figure className="backCardAboutMe">
                 <p className="pAboutMe" >
-                  I do sports 3 or 4 times a week. <br /> The rest of the days I like to have a nice walk.
+                  I do sports around 4 times a week. <br /> The days that I am not training I like to have a nice walk.
               </p>
               </figure>
             </div>
@@ -51,7 +51,7 @@ function AboutMe() {
               </figure>
               <figure className="backCardAboutMe">
                 <p className="pAboutMe" >
-                  I have been coding just for fan since 2018. <br /> During this time I've done around 50 projects.
+                  I have been coding just for fan since 2018. <br /> During this time I have done around 50 projects.
               </p>
               </figure>
             </div>
