@@ -32,6 +32,7 @@ function Navigation() {
                   rel="noopener noreferrer"
                 >
                   {item.title}
+
                 </Link>
               </li>
             )

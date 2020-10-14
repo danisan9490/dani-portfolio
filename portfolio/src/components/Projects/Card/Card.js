@@ -22,7 +22,7 @@ function Card({ title, url, description, lifeWeb, img, category }) {
         <div className="text">
           <h1 className="title">{title}</h1>
           <br />
-          <h3 className="description">{description}</h3>
+          <h4 className="description">{description}</h4>
         </div>
         <div className="icons">
           <a

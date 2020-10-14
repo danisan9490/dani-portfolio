@@ -16,7 +16,7 @@ function Home() {
             <h1>Hello! I'm Daniel,</h1>
           </div>
           <div className="content">
-            <h1> Full Stack Developer focused on&nbsp;&nbsp;
+            <h2> Full Stack Developer focused on&nbsp;&nbsp;
             <ReactTypingEffect
                 text={["JavaScript", "React", "Angular", "NodeJs", "Mongo DB", "MySQL", "PostgreSQL", "Python"]}
                 speed={100}
@@ -24,7 +24,7 @@ function Home() {
                 eraseDelay={1000}
                 typingDelay={200}
               />
-            </h1>
+            </h2>
           </div>
         </div>
         <div className="imgTypingContainer">

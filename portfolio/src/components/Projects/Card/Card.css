@@ -14,6 +14,14 @@
   background-color: rgba( 0, 0, 0, 1);
 }
 
+.title {
+  font-size: 30px;
+}
+
+.description {
+  font-size: 17px;
+}
+
 .backCard {
   text-align: center;
   padding: 1.5rem;

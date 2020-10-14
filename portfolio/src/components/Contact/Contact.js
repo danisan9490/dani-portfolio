@@ -12,7 +12,7 @@ function Contact() {
     <div className="contact" id="contact">
       <div className="contactHeader">
         <h1>Contact </h1>
-        <h6>Get in touch!</h6>
+        <h2>Get in touch!</h2>
       </div>
 
 

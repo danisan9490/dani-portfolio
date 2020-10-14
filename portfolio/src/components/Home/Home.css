@@ -1,3 +1,5 @@
+/* h1 styled in App.css */
+
 .Home {
   height: 100vh;
   color: black;
@@ -15,16 +17,11 @@
   display: block;
   margin-top: 50px;
   text-align: center;
-  font-size: 25px;
-  font-weight: 1000;
-  letter-spacing: -1px;
 }
 
 .content {
   align-items: right;
   width: 870px;
-  font-size: 20px;
-  letter-spacing: -1px;
 }
 
 .imgTypingContainer {
