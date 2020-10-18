@@ -27,7 +27,7 @@
   font-size: 65px;
   border-radius: 10px;
   background-color: rgba(250, 250, 250, 1);
-  box-shadow: 2px 4px 8px 2px rgba( 0, 0, 0, 0.3);
+  box-shadow: 2px 4px 4px 2px rgba( 0, 0, 0, 0.2);
 }
 
 .topDetails, .buttonDetails {

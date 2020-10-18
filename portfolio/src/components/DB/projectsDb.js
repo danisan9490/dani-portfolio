@@ -1,9 +1,33 @@
 export const projectsDb = [
   {
+    title: 'Product Hunt Clone',
+    url: 'https://github.com/danisan9490/product-hunt-clone',
+    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
+    lifeWeb: 'https://product-hunt-be03f.web.app/',
+    img: 'producthunt',
+    category: "fullStack"
+  },
+  {
+    title: 'Projects Manager',
+    url: 'https://github.com/danisan9490',
+    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
+    lifeWeb: 'https://stackmerntasks.netlify.app',
+    img: 'projectManager',
+    category: "fullStack"
+  },
+  {
+    title: 'Light-Dark Mode',
+    url: 'https://github.com/danisan9490/template-CV2-light-dark-mode',
+    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
+    lifeWeb: 'https://danisan9490.github.io/template-CV2-light-dark-mode/',
+    img: 'darkLight',
+    category: "fullStack"
+  },
+  {
     title: 'Face Recognition',
     url: 'https://github.com/danisan9490/face-recognition-js',
     description: 'The App able to find a face position on a digital image.',
-    lifeWeb: 'aaa',
+    lifeWeb: '',
     img: 'faceRecognition',
     category: "fullStack"
   },
@@ -18,49 +42,9 @@ export const projectsDb = [
   {
     title: 'CodeCoin',
     url: 'https://github.com/danisan9490/codeCoin-solo-project',
-    description: 'A new blockchain-based cryptocurrency',
+    description: 'A new blockchain-based cryptocurrency.',
     lifeWeb: '',
     img: 'codeCoin',
-    category: "fullStack"
-  },
-  {
-    title: 'Contact',
-    url: '#',
-    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
-    lifeWeb: '',
-    img: '',
-    category: "fullStack"
-  },
-  {
-    title: 'GitHub',
-    url: 'https://github.com/danisan9490',
-    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
-    lifeWeb: '',
-    img: '',
-    category: "fullStack"
-  },
-  {
-    title: 'Contact',
-    url: '#',
-    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
-    lifeWeb: '',
-    img: '',
-    category: "fullStack"
-  },
-  {
-    title: 'GitHub',
-    url: 'https://github.com/danisan9490',
-    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
-    lifeWeb: '',
-    img: '',
-    category: "fullStack"
-  },
-  {
-    title: 'Contact',
-    url: '#',
-    description: 'lorem isnfr akde ifrnjepc amniefn amieojnfe',
-    lifeWeb: '',
-    img: '',
     category: "fullStack"
   }
 

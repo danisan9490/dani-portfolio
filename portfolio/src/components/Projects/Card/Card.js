@@ -3,6 +3,9 @@ import './Card.css';
 import faceRecognition from '../../DB/img/faceRecognition.png';
 import briteU from '../../DB/img/briteU.png';
 import codeCoin from '../../DB/img/codeCoin.png';
+import darkLight from '../../DB/img/darkLight.gif';
+import producthunt from '../../DB/img/producthunt.png';
+import projectManager from '../../DB/img/projectManager.png';
 
 
 
@@ -12,6 +15,9 @@ function Card({ title, url, description, lifeWeb, img, category }) {
   if (img === 'faceRecognition') image = `url(${faceRecognition})`;
   if (img === 'briteU') image = `url(${briteU})`;
   if (img === 'codeCoin') image = `url(${codeCoin})`;
+  if (img === 'darkLight') image = `url(${darkLight})`;
+  if (img === 'producthunt') image = `url(${producthunt})`;
+  if (img === 'projectManager') image = `url(${projectManager})`;
 
   return (
     <div
