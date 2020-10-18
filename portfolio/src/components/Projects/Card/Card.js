@@ -3,7 +3,7 @@ import './Card.css';
 import faceRecognition from '../../DB/img/faceRecognition.png';
 import briteU from '../../DB/img/briteU.png';
 import codeCoin from '../../DB/img/codeCoin.png';
-import darkLight from '../../DB/img/darkLight.gif';
+import darkLight from '../../DB/img/darkLight.png';
 import producthunt from '../../DB/img/producthunt.png';
 import projectManager from '../../DB/img/projectManager.png';
 
@@ -38,7 +38,7 @@ function Card({ title, url, description, lifeWeb, img, category }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fas fa-code"></i>
+            <i className="fas fa-code"></i>
           </a>
 
           {lifeWeb !== "" ? (<a

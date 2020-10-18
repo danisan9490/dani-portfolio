@@ -72,8 +72,10 @@ li {
 .nav-links:hover {
   background-color: #7577fa;
   transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 
 .menu:hover {
   background: #6668f4;
+  cursor: auto;
 }

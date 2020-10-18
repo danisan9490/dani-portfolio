@@ -5,15 +5,15 @@ import Logo from './Logo1/Logo';
 function Decoration() {
   return (
     <div className="decoration">
-      <i class="fas fa-briefcase"></i>
-      <i class="fas fa-laptop-code"></i>
-      <i class="fa fa-desktop"></i>
+      <i className="fas fa-briefcase"></i>
+      <i className="fas fa-laptop-code"></i>
+      <i className="fa fa-desktop"></i>
       <Logo
         className="logo"
       />
-      <i class="fas fa-mouse"></i>
-      <i class="fa fa-coffee"></i>
-      <i class="far fa-calendar-alt"></i>
+      <i className="fas fa-mouse"></i>
+      <i className="fa fa-coffee"></i>
+      <i className="far fa-calendar-alt"></i>
     </div>
 
   );

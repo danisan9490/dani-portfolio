@@ -13,10 +13,10 @@ function Home() {
       <div className="home-items">
         <div className="phoneLaptop">
           <div className="phone">
-            <i class="fas fa-mobile-alt"></i>
+            <i className="fas fa-mobile-alt"></i>
           </div>
           <div className="laptop">
-            <i class="fas fa-laptop"></i>
+            <i className="fas fa-laptop"></i>
           </div>
 
         </div>

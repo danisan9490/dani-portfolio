@@ -1,4 +1,4 @@
-/* h1 styled in App.css */
+/* h1 styled in App css */
 
 .techStak {
   height: 100%;
@@ -65,14 +65,14 @@
 
 /* Items Img Resolution */
 
-.react, .redux, .angular {
+.react, .redux, .angular, .gatsby {
   height: 80px;
   width: 80px;
 }
 
-.html, .css {
-  height: 85px;
-  width: 60px;
+.nextjs {
+  height: 80px;
+  width: 130px;
 }
 
 .bootstrap {
@@ -141,13 +141,13 @@
     width: 100px;
     height: 85px;
   }
-  .react, .redux, .angular {
+  .react, .redux, .angular, .gatsby {
     height: 60px;
     width: 60px;
   }
-  .html, .css {
+  .nextjs {
     height: 65px;
-    width: 45px;
+    width: 105px;
   }
   .bootstrap {
     height: 65px;

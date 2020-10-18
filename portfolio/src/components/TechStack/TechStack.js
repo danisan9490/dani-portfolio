@@ -12,8 +12,8 @@ import postgreSQL from './techImg/postgreSQL.png';
 import redux from './techImg/redux.png';
 import postman from './techImg/postman.png';
 import bootstrap from './techImg/bootstrap.png';
-import html from './techImg/html.png';
-import css from './techImg/css.png';
+import gatsby from './techImg/gatsby.png';
+import nextjs from './techImg/nextjs.png';
 
 function TeckStack() {
 
@@ -53,11 +53,11 @@ function TeckStack() {
               </div>
               <div className="hcsContainer">
                 <div className="itemImg">
-                  <img className="frontEnd html" src={html} alt="Html" />
+                  <img className="frontEnd gatsby" src={gatsby} alt="Gatsby" />
 
                 </div>
                 <div className="itemImg">
-                  <img className="frontEnd css" src={css} alt="Css" />
+                  <img className="frontEnd nextjs" src={nextjs} alt="Next.js" />
 
                 </div>
                 <div className="itemImg">
