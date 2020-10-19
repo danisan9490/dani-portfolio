@@ -20,7 +20,6 @@ function Navigation() {
       <ul className={navbar ? 'nav-menu active' : 'nav-menu'}>
         {
           MenuItems.map((item, index) => {
-            console.log(item)
             return (
               <li key={index}>
                 <Link
