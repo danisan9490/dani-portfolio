@@ -27,7 +27,7 @@ function Home() {
           <div className="content">
             <h2> Full Stack Developer focused on&nbsp;
             <ReactTypingEffect
-                text={["JavaScript.", "React.", "Angular.", "NodeJs.", "Mongo DB.", "MySQL.", "PostgreSQL.", "Python."]}
+                text={["JavaScript.", "React.", "Angular.", "Next.js.", "NodeJs.", "Mongo DB.", "MySQL.", "PostgreSQL.", "Python."]}
                 speed={100}
                 eraseSpeed={200}
                 eraseDelay={1000}

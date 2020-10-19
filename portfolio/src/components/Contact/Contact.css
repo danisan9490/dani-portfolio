@@ -9,7 +9,6 @@
   margin-top: 25px;
   padding: 50px 30px 50px 30px;
   background: rgba(73, 63, 252, 1);
-  /* transform: translateY(-150px); */
 }
 
 .contactHeader {
@@ -56,6 +55,7 @@
 
 .copied {
   position: absolute;
+  width: 150px;
   font-size: 15px;
   transform: translate(5px, -80px);
 }
@@ -81,7 +81,6 @@ a {
 }
 
 .pCopy {
-  /* font-size: 30px; */
   text-align: center;
   border-radius: 10px;
   width: 110%;
@@ -91,7 +90,6 @@ a {
 }
 
 .pPocation {
-  /* font-size: 30px; */
   text-align: center;
   color: black;
   transform: translateX(10px);
@@ -117,9 +115,6 @@ a {
   .contactHeader {
     margin-bottom: 30px;
   }
-  /* .pCopy, .pPocation {
-    font-size: 20px;
-  } */
   .topDetails, .buttonDetails {
     margin: 20px;
     padding: 20px;
@@ -129,11 +124,13 @@ a {
   }
 }
 
+@media only screen and (max-width:800px) {
+  .copied {
+    width: 100px;
+  }
+}
+
 @media only screen and (max-width:700px) {
-  /* .contactHeader {
-    margin-bottom: 30px;
-    font-size: 25px;
-  } */
   .topDetails, .buttonDetails {
     display: flex;
     flex-direction: column;
@@ -149,5 +146,14 @@ a {
   }
   .locationContainer {
     transform: translateX(40px);
+  }
+  .copied {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .copied {
+    width: 100px;
   }
 }

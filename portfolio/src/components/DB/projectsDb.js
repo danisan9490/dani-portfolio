@@ -9,7 +9,7 @@ export const projectsDb = [
   },
   {
     title: 'Projects Manager',
-    url: 'https://github.com/danisan9490',
+    url: 'https://github.com/danisan9490/MERN-task-manager',
     description: 'The easy and visual way to manage your projects and tasks.',
     lifeWeb: 'https://stackmerntasks.netlify.app',
     img: 'projectManager',
@@ -26,7 +26,7 @@ export const projectsDb = [
   {
     title: 'Face Recognition',
     url: 'https://github.com/danisan9490/face-recognition-js',
-    description: 'The App able to find a face position on a digital image.',
+    description: 'Full website able to find a face position on a digital image.',
     lifeWeb: '',
     img: 'faceRecognition',
     category: "fullStack"
