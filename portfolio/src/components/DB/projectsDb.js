@@ -1,6 +1,6 @@
 export const projectsDb = [
   {
-    title: 'Product Hunt Clone',
+    title: 'Product Hunt',
     url: 'https://github.com/danisan9490/product-hunt-clone',
     description: 'Clone of the website that lets you share and discover products.',
     lifeWeb: 'https://product-hunt-be03f.web.app/',

@@ -15,100 +15,92 @@ function AboutMe() {
         </div>
         <div className="contentAboutMe">
 
-          <div className="cardAboutMe">
-            <div className="mainCard">
-              <figure className="frontCardAboutMe">
-                <h1>
-                  <i className="iconAboutMe far fa-file-code"></i>
-                </h1>
-              </figure>
-              <figure className="backCardAboutMe">
-                <p className="pAboutMe" >
+
+          <div className="containerAM">
+            <div className="cardAM">
+              <i className="iconAboutMe far fa-file-code"></i>
+              <div className="contentAM">
+                <p className="pAM">
                   I've been coding just for fun since 2018. <br /> During this time I've completed around 50 projects.
-              </p>
-              </figure>
+                  </p>
+              </div>
             </div>
           </div>
 
-          <div className="cardAboutMe">
-            <div className="mainCard">
-              <figure className="frontCardAboutMe">
-                <h1>
-                  <i class="iconAboutMe fas fa-school"></i>
-                </h1>
-              </figure>
-              <figure className="backCardAboutMe">
-                <p className="pAboutMe" >
+
+
+          <div className="containerAM">
+            <div className="cardAM">
+              <i class="iconAboutMe fas fa-school"></i>
+
+              <div className="contentAM">
+                {/* <i className="fas fa-info"></i> */}
+                <p className="pAM">
                   I studied coding at Codeworks, the leading JavaScript Bootcamp in Europe.
                 </p>
-              </figure>
+              </div>
             </div>
           </div>
 
-          <div className="cardAboutMe">
-            <div className="mainCard">
-              <figure className="frontCardAboutMe">
-                <h1>
-                  <i className="iconAboutMe fas fa-user-graduate"></i>
-                </h1>
-              </figure>
-              <figure className="backCardAboutMe">
-                <p className="pAboutMe" >
+
+
+          <div className="containerAM">
+            <div className="cardAM">
+              <i className="iconAboutMe fas fa-user-graduate"></i>
+              <div className="contentAM">
+                <p className="pAM">
                   I graduated in BSc Advertisement and Public Relations with a focus in sales and corporative communication.
                 </p>
-              </figure>
+              </div>
             </div>
           </div>
 
 
-          <div className="cardAboutMe">
-            <div className="mainCard">
-              <figure className="frontCardAboutMe">
-                <h1>
-                  <i class="iconAboutMe fas fa-language"></i>
-                </h1>
-              </figure>
-              <figure className="backCardAboutMe">
-                <p className="pAboutMe" >
+
+          <div className="containerAM">
+            <div className="cardAM">
+              <i class="iconAboutMe fas fa-language"></i>
+
+              <div className="contentAM">
+                <p className="pAM">
                   I speak two languages, Spanish (native), and English (professional working proficiency).
-              </p>
-              </figure>
+                </p>
+              </div>
             </div>
           </div>
 
-          <div className="cardAboutMe">
-            <div className="mainCard">
-              <figure className="frontCardAboutMe">
-                <h1><i className="iconAboutMe fas fa-bicycle"></i></h1>
-              </figure>
-              <figure className="backCardAboutMe">
-                <p className="pAboutMe" >
+
+
+          <div className="containerAM">
+            <div className="cardAM">
+              <i className="iconAboutMe fas fa-bicycle"></i>
+              <div className="contentAM">
+                <p className="pAM">
                   I do sports 4 times a week. <br /> The days that I'm not training, I like to have a nice walk and discover new places.
-              </p>
-              </figure>
+                </p>
+              </div>
             </div>
           </div>
 
-          <div className="cardAboutMe">
-            <div className="mainCard">
-              <figure className="frontCardAboutMe">
-                <h1>
-                  <i className="iconAboutMe far fa-clock"></i>
-                </h1>
-              </figure>
-              <figure className="backCardAboutMe">
-                <p className="pAboutMe" >
+
+
+          <div className="containerAM">
+            <div className="cardAM">
+              <i className="iconAboutMe far fa-clock"></i>
+              <div className="contentAM">
+                <p className="pAM">
                   Every day I wake up at 5:00 a.m. to have breakfast, meditate, read and start the day.
-              </p>
-              </figure>
+                </p>
+              </div>
             </div>
           </div>
 
 
-        </div>
-      </div>
 
-    </div>
+        </div >
+      </div >
+
+    </div >
   );
 }
 

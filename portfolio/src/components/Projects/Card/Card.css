@@ -24,7 +24,7 @@
 
 .backCard {
   text-align: center;
-  padding: 1.5rem;
+  padding: 30px;
   color: rgba( 0, 0, 0, 0.0);
   box-shadow: 2px 4px 4px 2px rgba( 0, 0, 0, 0.0);
   visibility: hidden;
@@ -87,6 +87,9 @@
     height: 195px;
     width: 305px;
     background-size: cover;
+  }
+  .backCard {
+    padding: 15px 7px 15px 7px;
   }
   .title {
     font-size: 25px;
