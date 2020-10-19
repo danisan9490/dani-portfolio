@@ -29,9 +29,9 @@ function TeckStack() {
 
         <div className="techContainer">
           <div className="topTech">
-            <img className="imgTop js" src={javaScript} alt="JavaScript" />
-            <img className="imgTop " src={gitHub} alt="GitHub" />
-            <img className="imgTop " src={python} alt="Python" />
+            <img className="imgTop js" title="Javascript" src={javaScript} alt="JavaScript" />
+            <img className="imgTop " title="GitHub" src={gitHub} alt="GitHub" />
+            <img className="imgTop " title="Python" src={python} alt="Python" />
 
           </div>
           <div className="buttomTech">
@@ -39,30 +39,29 @@ function TeckStack() {
             <div className="frontEndContainer">
               <div className="rraContainer">
                 <div className="itemImg">
-                  <img className="frontEnd react" src={reactImg} alt="React" />
+                  <img className="frontEnd react" title="React" src={reactImg} alt="React" />
                 </div>
                 <div className="itemImg">
-                  <img className="frontEnd redux" src={redux} alt="Redux" />
+                  <img className="frontEnd redux" title="Redux" src={redux} alt="Redux" />
 
                 </div>
                 <div className="itemImg">
-                  <img className="frontEnd angular" src={angular} alt="Angular" />
+                  <img className="frontEnd angular" title="Angular 9" src={angular} alt="Angular" />
 
                 </div>
 
               </div>
               <div className="hcsContainer">
                 <div className="itemImg">
-                  <img className="frontEnd gatsby" src={gatsby} alt="Gatsby" />
+                  <img className="frontEnd gatsby" title="Gatsby.js" src={gatsby} alt="Gatsby" />
 
                 </div>
                 <div className="itemImg">
-                  <img className="frontEnd nextjs" src={nextjs} alt="Next.js" />
+                  <img className="frontEnd nextjs" title="Next.js" src={nextjs} alt="Next.js" />
 
                 </div>
                 <div className="itemImg">
-                  <img className="frontEnd bootstrap" src={bootstrap} alt="Bootstrap" />
-
+                  <img className="frontEnd bootstrap" title="Bootstrap" src={bootstrap} alt="Bootstrap" />
                 </div>
 
               </div>
@@ -71,27 +70,26 @@ function TeckStack() {
             <div className="backEndContainer">
               <div className="npContainer">
                 <div className="itemImg">
-                  <img className="backEnd nodeJs" src={nodeImg} alt="NodeJs" />
-
+                  <img className="backEnd nodeJs" title="NodeJs" src={nodeImg} alt="NodeJs" />
                 </div>
                 <div className="itemImg">
-                  <img className="backEnd postman" src={postman} alt="Postman" />
+                  <img className="backEnd postman" title="Postman" src={postman} alt="Postman" />
 
                 </div>
 
               </div>
               <div className="mmpContainer">
                 <div className="itemImg">
-                  <img className="backEnd postgreSQL" src={postgreSQL} alt="postgreSQL" />
+                  <img className="backEnd postgreSQL" title="PostgeSQL" src={postgreSQL} alt="postgreSQL" />
 
                 </div>
                 <div className="itemImg">
-                  <img className="backEnd mySQL" src={mySQL} alt="mySQL" />
+                  <img className="backEnd mySQL" title="MySQL" src={mySQL} alt="mySQL" />
 
                 </div>
 
                 <div className="itemImg">
-                  <img className="backEnd mongoDB" src={mongoDB} alt="mongoDB" />
+                  <img className="backEnd mongoDB" title="MongoDB" src={mongoDB} alt="mongoDB" />
 
                 </div>
               </div>

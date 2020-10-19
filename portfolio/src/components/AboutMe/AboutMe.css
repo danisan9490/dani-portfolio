@@ -27,7 +27,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 60px 0 50px 0;
+  margin: 60px 280px 50px 280px;
   text-align: left;
 }
 
@@ -77,9 +77,15 @@
   transform: rotateY(180deg);
 }
 
+@media only screen and (max-width: 1600px) {
+  .contentAboutMe {
+    margin: 60px 140px 50px 140px;
+  }
+}
+
 @media only screen and (max-width: 1300px) {
-  .cardAboutMe {
-    margin: 40px 0 40px 0;
+  .contentAboutMe {
+    margin: 40px 50px 40px 50px;
   }
   .cardAboutMe {
     width: 225px;
@@ -95,6 +101,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .contentAboutMe {
+    margin: 40px 0px 40px 0px;
+  }
   .cardAboutMe {
     width: 250px;
     height: 350px;
