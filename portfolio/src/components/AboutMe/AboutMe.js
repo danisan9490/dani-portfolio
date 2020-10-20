@@ -31,7 +31,7 @@ function AboutMe() {
 
           <div className="containerAM">
             <div className="cardAM">
-              <i class="iconAboutMe fas fa-school"></i>
+              <i className="iconAboutMe fas fa-school"></i>
 
               <div className="contentAM">
                 {/* <i className="fas fa-info"></i> */}
@@ -59,7 +59,7 @@ function AboutMe() {
 
           <div className="containerAM">
             <div className="cardAM">
-              <i class="iconAboutMe fas fa-language"></i>
+              <i className="iconAboutMe fas fa-language"></i>
 
               <div className="contentAM">
                 <p className="pAM">

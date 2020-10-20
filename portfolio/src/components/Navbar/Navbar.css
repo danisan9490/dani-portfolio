@@ -79,3 +79,9 @@ li {
   background: #6668f4;
   cursor: auto;
 }
+
+@media only screen and (max-width: 700px) {
+  .menu-icon {
+    transform: translate(97px, -97px);
+  }
+}
